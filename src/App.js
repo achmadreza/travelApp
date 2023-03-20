@@ -1,22 +1,24 @@
 import React from 'react'
 import "./app.css";
-import Navbar from './Components/Navbar/Navbar';
-import Home from './Components/Home/Home';
-import Populer from './Components/Populer/Populer';
-import Offers from './Components/Offers/Offers';
-import Blog from './Components/Blog/Blog';
-import About from './Components/About/About';
-import Footer from './Components/Footer/Footer';
+
+
+
+import Layout from './Components/Layout/Layout';
+
+
 const App = () => {
   return (
     <>
-    <Navbar />
+    {/* <Navbar />
     <Home />
     <Populer />
     <Offers />
     <Blog />
-    <About />
-    <Footer />
+    <About /> */}
+
+    <Layout />
+    
+    {/* <Footer /> */}
     </>
   )
 }

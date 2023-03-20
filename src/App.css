@@ -62,9 +62,10 @@
     background: var(--PrimaryColor);
     border: none;
     outline: none;
-    border-radius: 3rem;
+    border-radius: 2rem;
     cursor: pointer;
   }
+
 
   .btn a{
     color: var(--whiteColor);
@@ -75,6 +76,9 @@
     color: var(--whiteColor);
   }
 
+  .btn:hover{
+    color: blue;
+  }
   .secIntro{
     max-width: 70%;
     text-align: center;
